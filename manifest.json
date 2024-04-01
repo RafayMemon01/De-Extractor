@@ -1,0 +1,16 @@
+{
+    "name": "De Extractor",
+    "short_name": "De Extractor",
+    "description": "A web tool that extracts email addresses from text.",
+    "icons": [
+        {
+            "src": "/Assets/logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#007bff"
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <!-- Website URL -->
+    <meta property="og:url" content="https://rafaymemon01.github.io/De-Extractor/" />
+    
+    <!-- Language Setting -->
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Author's LinkedIn Profile -->
+    <meta property="article:author" content="https://www.linkedin.com/in/rafay-memon-930190253/" />
+    
+    <!-- Website Logo Image -->
+    <meta property="og:image" content="https://rafaymemon01.github.io/De-Extractor/Assets/logo.png" />
+
+    <!-- Description of the Website -->
+    <meta name="description" content="De Extractor is a simple web tool that allows you to extract email addresses from a block of text. " />
+
+    <!-- Type of Content -->
+    <meta property="og:type" content="website" />
+
+    <!-- Title of the Website -->
+    <meta property="og:title" content="De Extractor | Email Extractor From Text" />
+
+    <!-- Keywords for Search Engines -->
+    <meta name="keywords" content="De Extractor, email extractor,email finder, email tool, email grabber, free email extract, Online Email Extractor, bulk email extractor, email extractor free, email extractor from text for free, free email extractor, online email extractor, email extractor from text, bulk email extractor, email marketing tool, lead generation tool, sales prospecting tool, free email marketing tool" />
+
+    <!-- Author Information -->
+    <meta name="author" content="Rafay Memon" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://rafaymemon01.github.io/De-Extractor" />
+
+    <!-- Brief Description for Social Media -->
+    <meta property="og:description" content="De Extractor is a simple web tool that allows you to extract email addresses from a block of text." />
+
+    <!-- Image for Social Media Sharing -->
+    <meta property="og:image" content="https://rafaymemon01.github.io/De-Extractor/Assets/logo.png" />
+
+    <!-- Site Name for Social Media -->
+    <meta property="og:site_name" content="De Extractor" />
+
+    <!-- Robots Meta Tag -->
+    <meta name="robots" content="index" />
+
+    <!-- ||||  -->
+
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>De Extractor</title>
+    <link rel="shortcut icon" href="./Assets/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <img width="100px" src="./Assets/logo_nobg.png" alt="De Extractor">
+      <a href="https://www.buymeacoffee.com/rafaymemon" target="_blank">
+        <img
+          src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=rafaymemon&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"
+          alt="Buy Me a Coffee"
+          style="height: 40px !important; width: 180px !important"
+        />
+      </a>
+    </header>
+    <div class="container">
+      <h2>De Extractor</h2>
+      
+      <textarea
+        id="inputText"
+        placeholder="Paste text containing emails..."
+      ></textarea>
+      <button onclick="extractEmails()">Extract Emails</button>
+      <button onclick="copyAll()">Copy All</button>
+      <h3>Extracted Emails:</h3>
+      <div id="output"></div>
+      <p id="count"></p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
